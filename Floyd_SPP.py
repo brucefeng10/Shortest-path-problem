@@ -63,8 +63,8 @@ if __name__ == '__main__':
 
     path_dict = floyd(adj_mat)
 
-    start_node, end_node = 0, 5  # the start and end node of the shortest path you want to return
-    route = get_entire_route(start_node, end_node)
+    start_node0, end_node0 = 0, 5  # the start and end node of the shortest path you want to return
+    route = get_entire_route(start_node0, end_node0)
 
     shortest_dist = 0  # shortest distance value
     for route0 in route:
